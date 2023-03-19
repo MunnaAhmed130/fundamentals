@@ -6,14 +6,7 @@
     box-sizing: border-box;
 }
 
-body {
-    display: flex;
-    align-items: center;
-    /* justify-content: center; */
-    height: 100vh;
-    background-color: rgba(0, 0, 0, 0.753);
-}
-
+/* layout styles for index */
 .flexbox-container {
     position: relative;
     width: 100%;
@@ -36,7 +29,7 @@ body {
 .cross-axis {
     left: 50%;
     transform: translateX(-50%);
-    width: 5px;
+    width: 2px;
     height: 100%;
     background-color: blue;
 }
@@ -44,7 +37,7 @@ body {
 .main-axis {
     top: 50%;
     transform: translateY(-50%);
-    height: 5px;
+    height: 2px;
     width: 100%;
     background-color: red;
 }
