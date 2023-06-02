@@ -1,3 +1,17 @@
 .photo-grid {
-  grid-template-columns: repeat(auto-fit, minmax(240, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-auto-rows: 240px;
+}
+
+.card {
+  @apply flex flex-col items-center justify-center text-5xl text-white h-full w-full rounded transition-all duration-500 bg-center bg-no-repeat bg-cover;
+}
+
+@media screen and (min-width: 600px) {
+  .card-tall {
+    grid-row: span 2 / auto;
+  }
+  .card-wide {
+    grid-column: span 2 / auto;
+  }
 }
