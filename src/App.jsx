@@ -1,10 +1,11 @@
 import "./App.css";
-import Grid from "./components/Grid";
+import PhotoGrid from "./components/PhotoGrid";
 
 function App() {
   return (
     <>
-      <Grid />
+      {/* <Grid /> */}
+      <PhotoGrid />
     </>
   );
 }
