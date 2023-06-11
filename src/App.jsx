@@ -1,12 +1,12 @@
 import "./App.css";
-import AnimatedGrid from "./components/animatedGrid";
+import Callback from "./hooks/Callback";
+import Usememo from "./hooks/Usememo";
 
 function App() {
   return (
     <>
-      {/* <Grid /> */}
-      {/* <PhotoGrid /> */}
-      <AnimatedGrid />
+      {/* <Callback /> */}
+      <Usememo />
     </>
   );
 }
