@@ -1,12 +1,10 @@
+import MultiRangeSlider from "./components/multiRangeSlider/MultiRangeSlider";
 import "./App.css";
-import FilterTags from "./components/filterTags/FilterTags";
-import Callback from "./hooks/Callback";
-import Usememo from "./hooks/Usememo";
 
 function App() {
   return (
     <>
-      <FilterTags />
+      <MultiRangeSlider min={200} max={3500} />
     </>
   );
 }
